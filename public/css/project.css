@@ -1,0 +1,129 @@
+html {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body {
+}
+
+
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+table thead {
+	background: #295f5f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #295f5f 0%, #50b8af 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#295f5f), color-stop(100%,#50b8af)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #295f5f 0%,#50b8af 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #295f5f 0%,#50b8af 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #295f5f 0%,#50b8af 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #295f5f 0%,#50b8af 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#295f5f', endColorstr='#50b8af',GradientType=0 ); /* IE6-9 */
+
+}
+
+table thead tr {
+	height: 55px;
+}
+
+table thead tr th {
+	text-align: center;
+	width: 7%;
+}
+
+table tbody tr td {
+	text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+	background: #CCC;
+}
+table tbody tr:nth-child(odd) {
+	background: #FFF;
+}
+
+#container {
+	width: 100%;
+	text-align: center;
+}
+
+table {
+	margin: 0 20%;
+}
+
+#product-table-header{
+	border: 1px solid #fff;
+}
+
+.table-header-item {
+	padding: 11px 20px;
+	/*border: 1px solid #000;*/
+	display: inline-block;
+}
+
+#form-container {
+	text-align: center;
+}
+
+#form-container form {
+	margin: 0 20%;
+}
+
+#form-container input {
+	width: 16.2%;}
+
+#form-container input[name="name"] {
+	display: inherit;
+	width: 100%;
+	min-height: 36px;
+}
+
+#form-container textarea {
+	width: 100%;
+	min-height: 84px;
+}
+
+
+input[type="submit"] {
+/*	width: 190px;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+a.edit {
+	color: transparent;
+	background-color: transparent;
+	background: url('../img/glyphicons/png/glyphicons_150_edit.png') 0 0 no-repeat;
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+}
+a.delete {
+	color: transparent;
+	background-color: transparent;
+	background: url('../img/glyphicons/png/glyphicons_016_bin.png') 0 0 no-repeat;
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+}

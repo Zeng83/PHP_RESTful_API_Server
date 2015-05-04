@@ -1,0 +1,226 @@
+body {
+	background: #000;
+}
+
+p{
+	color: #828282;
+}
+
+#resume-header {
+	height: 52px;
+	background: #2C2C2C;
+	border-bottom: 5px solid #fff;
+}
+
+#resume-body {
+	width: 960px;
+	margin: 0 auto;
+	/*border: 1px solid #fff;*/
+	
+}
+#resume-body-header {
+	height: 60px;
+}
+
+#resume-body-header  #banner {
+	float: right;
+	padding: 23px;
+}
+
+#resume-body-body {
+	background: #282828;
+}
+
+#resume-profile {
+	height: 300px;
+	position: relative;
+}
+
+.badge {
+	color: #fff;
+	height: 47px;
+	background: #4CA5D0;
+	width: 125px;
+	padding: 14px 49px;
+	text-transform: uppercase;
+	margin: 0 -45px;
+}
+
+.right-side-buttons {
+	color: #fff;
+	height: 47px;
+	background: #4CA5D0;
+	width: 161px;
+	padding: 14px 49px;
+	text-transform: uppercase;
+	margin: 0 -45px;
+	position: absolute;
+	top: 0;
+}
+
+#resume-profile .header-warp span {
+	float: right;
+}
+
+#resume-profile .profile-pic-name {
+	height: 117px;
+	width: 396px;
+	margin: 26px 25px;
+	float: left;
+}
+
+.main-content h4 {
+	color: #fff;
+}
+
+.main-content h5,
+.main-content p {
+	color: #828282;
+}
+
+#resume-profile .profile-pic-name .profile-name .name {
+	font-size: 2em;
+	font-weight: 600;
+	/*margin: 25px;*/
+	color: #fff;
+	display: inline-block;
+	padding: 2px 13px;
+}
+#resume-profile .profile-pic-name .profile-name .title {
+	font-size: 1.3em;
+	font-weight: 800;
+	/*margin: 25px;*/
+	color: #3189D0;
+	display: block;
+	margin: 2px 6px 2px 129px;
+	width: 65%;
+}
+
+#resume-profile .profile-pic {
+	position: relative;
+	width: 117px;
+	overflow: hidden;
+	float: left;
+}
+
+#resume-profile .contact {
+	float: right;
+	margin: 20px 12px;
+}
+
+#resume-profile .detail {
+	display: inline-block;
+	padding: 9px 21px;
+}
+
+#resume-profile .contact ul li {
+	float: none;
+	color: #fff;
+	font-size: .9em;
+	display: block;
+	margin: 7px;
+}
+
+#resume-skill {
+	border-top: 1px solid gray;
+	position: relative;
+}
+
+.resume-header {
+	height: 50px;
+	background: #282828;
+	cursor: pointer;
+}
+.resume-header:hover {
+	background: #000;
+}
+
+
+.main-content {
+	margin: 33px 0;
+}
+
+#resume-skill .main-content ul {
+	padding: 0 60px;
+}
+
+#resume-skill .main-content ul li{
+	float: none;
+	padding: 8px 0;
+	color: #828282;
+}
+#resume-skill .main-content ul li strong{
+	color: #fff;	
+}
+
+
+#resume-experience {
+	border-top: 1px solid gray;
+	position: relative;
+}
+
+#resume-experience .duty ul {
+	list-style: none;
+}
+
+#resume-experience .duty ul li{
+	float: none;
+	margin: 14px 0;
+	color: #828282;
+}
+
+#resume-experience .resume-experience-item{
+	padding: 0 53px 25px;
+	margin-top: 20px;
+	border-bottom: 1px dotted #808080;
+}
+#resume-experience .resume-experience-item-header {
+	display: block;
+	height: 41px;
+}
+#resume-experience .resume-experience-item-header .first {
+	float: left;
+}
+
+#resume-experience .resume-experience-item-header .second {
+	float: right;
+}
+
+#resume-education,#resume-portfolio,#resume-contact {
+	border-top: 1px solid gray;
+	position: relative;
+}
+
+#resume-experience .enviroment strong {
+	color: #fff;
+}
+
+#resume-experience .enviroment {
+	color: #828282;
+}
+
+.education-item {
+	margin-top: 20px;
+	padding: 0 53px;
+	border-bottom: 1px dotted gray;
+}
+.education-item h6 {
+	color: #828282;
+}
+
+.education-item-header {
+	height: 41px;
+}
+
+.education-item-header .first {
+	float: left;
+}
+
+.education-item-header .second {
+	float: right;
+}
+
+.general-footer {
+	color: #fff;
+
+}
